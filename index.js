@@ -8,3 +8,9 @@ const person = {
         console.log(`hi! I'm ${this.name[0]}.`);
     },
 };
+
+person.name;
+person.name[0];
+person.age;
+person.bio();
+person.introduceSelf()
