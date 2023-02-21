@@ -37,5 +37,18 @@ person.farewell = function () {
   console.log("Bye everybody!");
 };
 
-person["eyes"];
+console.log(person["eyes"]);
 person.farewell();
+
+const cat = {
+  name : 'Bertie',
+  breed : 'Cymric',
+  color : 'white',
+  greeting: function() {
+    console.log('Meow!');
+  }
+}
+
+const catName = cat["name"];
+cat.greeting();
+console.log(catName);
